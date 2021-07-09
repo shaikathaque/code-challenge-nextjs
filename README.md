@@ -12,6 +12,7 @@
 ### 2. How do you design a large project like Maybe for scalability/maintainability/reliability?
 
 ### Client
+- Use eslint/prettier/code formatting tools to ensure clean consistent code  across codebase
 - divide frontend codebase into modules
 - Have a TDD (Technical design document for each module)
 - Have code coverage to make sure most code is tested
