@@ -1,6 +1,6 @@
 import { NextPage } from 'next'
-
 import Layout from '../components/layout'
+import Search from '../components/search'
 import useApiData from '../hooks/use-api-data'
 import Airport from '../types/airport'
 
@@ -10,9 +10,12 @@ const Page: NextPage = () => {
   return <Layout>
     <h1 className='text-2xl'>Code Challenge: Airports</h1>
 
-    <h2 className="mt-10 text-xl">All Airports</h2>
+    <Search />
 
-    <div>
+
+    {/* <h2 className="mt-10 text-xl">All Airports</h2> */}
+
+    {/* <div>
       {airports.map(airport => (
         <a href={`/airports/${airport.iata.toLowerCase()}`} key={airport.iata} className='mt-5 flex items-center shadow p-5 border'>
           <div>
@@ -23,7 +26,7 @@ const Page: NextPage = () => {
           </div>
         </a>
       ))}
-    </div>
+    </div> */}
   </Layout>
 }
 

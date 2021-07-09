@@ -26,3 +26,10 @@ Once started, the app should be available via http://localhost:3000
 ## Help
 
 For detailed explanation on how things work, check out [Next.js docs](https://nextjs.org).
+
+
+Requirements:
+- Data available in JSON
+- typeahead search
+- to avoid loading all data at once
+- Find airport by Name, IATA, City, or Country.
